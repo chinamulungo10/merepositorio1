@@ -1,0 +1,77 @@
+@media only screen and (max-width: 480px) {
+  .menu {
+    display: block;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(114, 9, 26);
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 1000;
+  }
+.chafim{
+  text-decoration: none;
+
+}
+  .header__check:checked ~ .menu {
+    transform: translateX(0);
+  }
+  
+  }
+
+.quem-sou{
+  background-color: rgb(71, 63, 110);
+  border:  rgb(43, 42, 44);
+  color: #ffffff;
+  margin: 1px 30px 14px;
+  text-align: justify;
+}
+.baner__chafim{
+  width: 75%;
+  height: 40%;
+}
+body {
+color: blue;
+}
+.header__logo{
+text-align: right;
+position: fixed;
+}
+.header__toggle,
+.header__check {
+  display: none;
+}
+.meu__nome{
+    padding: 60px;
+    text-align: center;
+    color: rgb(34, 0, 168);;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:focus {
+  color: #0000;
+}
+menu{
+    color: #f5dbdb;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px;
+  }
+  .header__logo{
+    text-align: left;
+  }
+  .nome{
+    color: rgb(116, 106, 106);
+  }
+  .contacto{
+    background-color: rgba(82, 8, 8, 0.667);
+    text-align: center;
+    height: 40%;
+}
+  
